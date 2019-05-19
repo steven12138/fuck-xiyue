@@ -64,7 +64,7 @@ int main()
 			}
 			keybd_event(VK_RETURN, NULL, KEYEVENTF_EXTENDEDKEY | 0, NULL);
 	        keybd_event(VK_RETURN, NULL, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, NULL);
-	        Sleep(200);
+	        Sleep(400);
 	        cout<<i<<" "<<j<<endl;
 		}
 	}
