@@ -37,9 +37,9 @@ def crack(id, user, y, m1, m2, d1, d2):
         exit(0)
 
 
-user = "2024114"
-ery=2001
-lty=2002
+user = "190412"
+ery=2003
+lty=2004
 
 class myth1(threading.Thread):  # 通过继承threading.Thread重写run方法的形式，创建子线程
     def run(self):
