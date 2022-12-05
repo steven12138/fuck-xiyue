@@ -3,6 +3,7 @@ import os
 import time
 from bs4 import BeautifulSoup
 import threading
+import sys
 
 f = 0
 
@@ -38,7 +39,7 @@ def crack(id, user, y, m1, m2, d1, d2):
                 f = 1
                 break
     if (f):
-        exit(0)
+        sys.exit()
 
 
 user = "2523212"
